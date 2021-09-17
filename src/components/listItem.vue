@@ -35,9 +35,11 @@ export default defineComponent({
     function onEdit(user) {
       emit('edit', user)
     }
+
     function onDelete(user) {
       emit('delete', user)
     }
+
     return {
       onEdit,
       onDelete,

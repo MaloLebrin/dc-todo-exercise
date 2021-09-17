@@ -84,10 +84,4 @@ export default defineComponent({
   color: #2c3e50;
   margin-top: 60px;
 }
-.moving-card {
-  opacity: 0.5;
-  background: #F7FAFC;
-  border: 1px solid #4299e1;
-}
-
 </style>
