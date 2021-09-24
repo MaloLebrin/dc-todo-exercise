@@ -1,11 +1,13 @@
 {
   "name": "todo-app",
   "version": "0.1.0",
-  "private": true,
+  "description": "exercise to learn vuejs DCCampus",
+  "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
